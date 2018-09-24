@@ -43,15 +43,17 @@ public class XMLUtils {
 
 			for (Map.Entry<String, String> element : elements.entrySet()) {
 
-				if (element.getKey() == "")
+//				if (element.getKey() == "")
 
-				{
-
-					Element xpath = doc.createElement("XPath");
-					xpath.appendChild(doc.createTextNode(element.getValue()));
-					ScreenElement.appendChild(xpath);
-
-				} else {
+//				{
+//
+//					// Element xpath = doc.createElement("XPath");
+//					// xpath.appendChild(doc.createTextNode(element.getValue()));
+//					// ScreenElement.appendChild(xpath);
+//					continue;
+//
+//				} else 
+				if (element.getKey() != "") {
 					Element logicalName = doc.createElement(element.getKey());
 					ScreenElement.appendChild(logicalName);
 					Element xpath = doc.createElement("XPath");
