@@ -22,7 +22,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 
-class CreateXMLFile
+class CreateXMLFile1
 {
 	public void createXML()
 	{
@@ -81,7 +81,7 @@ class CreateXMLFile
 
 
 
-public class ExcelReader {
+public class ExcelReader_bkup {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -139,8 +139,8 @@ public class ExcelReader {
             e.printStackTrace();
         }
 		
-		CreateXMLFile obj=new CreateXMLFile();
-		obj.createXML();
+		//CreateXMLFile obj=new CreateXMLFile();
+		//sdsobj.createXML();
 		
 	}
 
